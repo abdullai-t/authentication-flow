@@ -1,0 +1,14 @@
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.my-form{
+    display: flex;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}

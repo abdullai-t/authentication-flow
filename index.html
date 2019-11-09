@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>auth flow</title>
+    <!-- css files used-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/personal.css">
+
+</head>
+
+<body>
+    <div class="my-form">
+        <form action="http://localhost:3000/signup" method="post">
+            <div class="names">
+                <!-- first name -->
+                <div class="form-group">
+                    <label for="">First Name</label>
+                    <input type="text" class="form-control" name="fname" aria-describedby="helpId" required>
+                </div>
+
+                <!-- last name -->
+                <div class="form-group">
+                    <label for="">Surname Name</label>
+                    <input type="text" class="form-control" name="sname" aria-describedby="helpId" required>
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelpId" required>
+            </div>
+
+            <!-- passwords -->
+            <div class="passwords">
+
+                <!-- password -->
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" name="password" required>
+                </div>
+
+                <!-- confirm password -->
+                <div class="form-group">
+                    <label for="">Confirm Password</label>
+                    <input type="password" class="form-control" name="Cpassword" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="sub">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+<!-- js files -->
+<!-- always make sure jquery file is imported first -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/personal.js"></script>
+
+</html>
