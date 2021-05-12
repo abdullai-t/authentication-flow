@@ -7,6 +7,6 @@
     "expressjs": "^1.0.1",
     "fs": "^0.0.1-security",
     "mongoose": "^5.7.7",
-    "nodemailer": "^6.3.1"
+    "nodemailer": "^6.4.16"
   }
 }
